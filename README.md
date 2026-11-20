@@ -49,3 +49,7 @@ Einzeln gzip-komprimierte Dateien (Bytes; Original-ESM, ohne nachträgliche Mini
 Original-Assets von [@nordwerk/scroll-carousel 0.1.5](https://www.nordwerk.studio/oss/scroll-carousel) und [@nordwerk/scroll-sheet 0.5.0](https://www.nordwerk.studio/oss/scroll-sheet), MIT. CSS-Raster bewahrt die Lese-/Tab-Reihenfolge, kein Spalten-Masonry. Der globale Kern-Lightbox-Ersatz ist zurückgestellt, weil eigene Templates, Pagination, externe Metadatenlinks und manuelle Layout-Skripte getrennte Kompatibilitätsprüfungen brauchen. Bestehende Kern-Bilder behalten ihre Ausgabe.
 
 Die unveränderten npm-Dateien werden im Monorepo gepinnt und mit Prüfsummen abgeglichen. Kein Build bei Contao-Nutzern. Geprüft mit PHPUnit, PHPStan, ECS, Twig-CS, Contao-Lints sowie Playwright und Axe auf Contao 5.7/6.0.
+
+## Fehler und Wünsche
+
+Bitte als Issue in [studio-nordwerk/contao-pakete](https://github.com/studio-nordwerk/contao-pakete/issues) melden. Der Quellcode auf GitHub ist ein schreibgeschützter Spiegel; entwickelt wird das Paket intern bei Studio Nordwerk, Pull Requests dort werden nicht übernommen.
